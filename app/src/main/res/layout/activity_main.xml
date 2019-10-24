@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:includeFontPadding="true"
+        android:paddingBottom="20dp"
+        android:text="Service"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="43dp"/>
+
+    <Button
+        android:id="@+id/btn_ig"
+        android:layout_width="76dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ig"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:background="@drawable/facebook"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MP3 Player"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="35dp"
+            android:layout_height="104dp"
+            android:layout_weight="1"
+            android:background="@drawable/play"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="568dp" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="57dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="@drawable/stop"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="568dp" />
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="34dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="@drawable/pause"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="568dp" />
+
+    </LinearLayout>
+</LinearLayout>
